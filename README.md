@@ -8,7 +8,7 @@ i also attached a postman collection for testing.
 ### Date
 2021 October 15th
 ### Location of deployed application
-If applicable, please provide the url where we can find and interact with your running application.
+sorry i didn't have the time to find something online
 ### Time spent
 4 hours.
 ### Assumptions made
