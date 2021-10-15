@@ -1,15 +1,16 @@
 # README
 
 ## Notes
-*Please do not supply your name or email address in this document. We're doing our best to remain unbiased.*
+![image](https://user-images.githubusercontent.com/22609918/137487259-de2cb53e-ea65-410d-9be0-87c42f32abab.png)
+as you can see in the picture, each user has one team and every team can have many players and matches.
+i also attached a postman collection for testing.
 ### Date
-The date you're submitting this.
+2021 October 15th
 ### Location of deployed application
 If applicable, please provide the url where we can find and interact with your running application.
 ### Time spent
-How much time did you spend on the assignment? Normally, this is expressed in hours.
+4 hours.
 ### Assumptions made
-Use this section to tell us about any assumptions that you made when creating your solution.
+the security implementation is using JWT. if there are 2 application comunicating which each other i would use secure api key but since we have alot of users this approach doesn't make sense. that's why i use JWT. it's secure and also expirable incase a user should not have access after sometime.
 ### Shortcuts/Compromises made
-If applicable. Did you do something that you feel could have been done better in a real-world application? Please
-let us know.
+i didn't want to spend too much time but in normal case i would have refactor the services to have the rendering seperated, something like a representer. trailblazer would have been a good option as well,.
